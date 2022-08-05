@@ -1,0 +1,28 @@
+body {
+   background: #eee url(https://i.imgur.com/XeihKOw.png);
+   font-family: 'Comfortaa', cursive;
+   font-size: 20px;
+   COLOR:#fff;
+}
+a:link {
+  color: #f47caa;
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #f47caa;
+}
+a:active {
+  color: #fff;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; 
+}
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
