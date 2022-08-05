@@ -1,28 +1,137 @@
 body {
-   background: #eee url(https://i.imgur.com/XeihKOw.png);
-   font-family: 'Comfortaa', cursive;
-   font-size: 20px;
-   COLOR:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #010204 url(https://i.imgur.com/3pTzwq1.jpg) repeat;
 }
 a:link {
-  color: #f47caa;
+    color: #fc0cff;
 }
 a:visited {
-  color: #fff;
+    color: #fc0cff;
 }
 a:hover {
-  color: #f47caa;
+    color: #53ffa9;
 }
 a:active {
-  color: #fff;
+    color: #fc0cff;
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; 
+a:active { text-decoration: none;
 }
-.myDiv {
-  border: 5px outset red;
-  background-color: lightblue;    
-  text-align: center;
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
 }
+th, td {
+    padding: 15px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #010204;
+    width: 1349px;
+    margin: -8px -8px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #eeff94;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #010204;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #010204;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #eeff94;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.logo {
+    padding: 5%;
+    align-content: flex-start;
+    }
+    .home {
+        width: 170px;
+        height: 107px;
+        margin: -50px -16px;
+        background: url("https://i.imgur.com/9N14isW.png") no-repeat;
+    }
+    .home:hover {
+        background: url("https://i.imgur.com/tqCKBlV.png") no-repeat;
+    }
+    .about {
+        width: 201px;
+        height: 107px;
+        margin: -50px -14px;
+        background: url("https://i.imgur.com/dElogfH.png") no-repeat;
+    }
+    .about:hover {
+        background: url("https://i.imgur.com/HVROqQR.png") no-repeat;
+    }
+    .blog {
+        width: 168px;
+        height: 107px;
+        margin: -50px -16px;
+        background: url("https://i.imgur.com/QjmwFlh.png") no-repeat;
+    }
+    .blog:hover {
+        background: url("https://i.imgur.com/5IGRZ69.png") no-repeat;
+    }
+    .contact {
+        width: 242px;
+        height: 107px;
+        margin: -50px -14px;
+        background: url("https://i.imgur.com/zowOz0F.png") no-repeat;
+    }
+    .contact:hover {
+        background: url("https://i.imgur.com/PdtkAmj.png") no-repeat;
+    }
+    .links {
+        width: 160px;
+        height: 107px;
+        margin: -50px -16px;
+        background: url("https://i.imgur.com/FHCRsiE.png") no-repeat;
+    }
+    .links:hover {
+        background: url("https://i.imgur.com/UmVHe76.png") no-repeat;
+    }
