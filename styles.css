@@ -171,3 +171,6 @@ th, td {
             ol.notes li.note blockquote a {
                 text-decoration: none;
             }
+#content #posts #tags .comma:last-child {
+      display: none;
+}
